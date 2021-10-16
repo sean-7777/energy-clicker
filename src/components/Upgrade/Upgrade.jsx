@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/Upgrade/Upgrade.less';
+import '../../styles/Upgrade/Upgrade.less';
 
 export default class extends Component {
   constructor(props) {
