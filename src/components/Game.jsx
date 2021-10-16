@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Title from './Title';
-import Energy from './Energy'
-import Upgrade from './Upgrade';
+import Energy from './Energy';
+import Upgrades from './Upgrade';
+import '../styles/Game.less';
 
 export default class extends Component {
   constructor(props) {
@@ -11,11 +12,13 @@ export default class extends Component {
 
   render() {
     return (
-      <div className="Game">
+      <>
         <Title />
-        <Energy />
-        <Upgrade />
-      </div>
+        <div className="game">
+          <Energy />
+          <Upgrades />
+        </div>
+      </>
     );
   }
 }
