@@ -6,6 +6,6 @@ export default class extends Component {
   }
 
   render() {
-    return <h1>Hi</h1>;
+    return <p>testing</p>;
   }
 }
